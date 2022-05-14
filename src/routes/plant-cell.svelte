@@ -43,5 +43,14 @@
 		<Explanation title="Rough Endoplasmic Reticulum">
 			Synthesizes lipids and proteins. Contains ribosomes on its surface.
 		</Explanation>
+		<Explanation title="Nucleus">
+			Controls the activities of the cell. ALso contains the cells DNA.
+		</Explanation>
+		<Explanation title="Nucleoid">
+			Contains a majority of the genetic material. Controls the activity of the cell.
+		</Explanation>
+		<Explanation title="Golgi Apparatus">
+			Helps process and package lipids and proteins from the endoplasmic reticulum into vesicles.
+		</Explanation>
 	</div>
 </div>
