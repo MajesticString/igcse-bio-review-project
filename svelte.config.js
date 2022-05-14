@@ -8,8 +8,11 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter()
-	}
+		adapter: adapter(),
+		prerender: {
+			default: true,
+		},
+	},
 };
 
 export default config;

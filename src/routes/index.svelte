@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import Explanation from '$lib/Explanation.svelte';
+</script>
+
+<svelte:head>
+	<title>Cell Structures Review Project</title>
+</svelte:head>
+
+<div class="prose">
+	<h1>Which cell do you want to see?</h1>
+</div>
+<Explanation title="test">afds</Explanation>
