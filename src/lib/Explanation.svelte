@@ -4,7 +4,10 @@
 	export let title: string;
 </script>
 
-<section class="prose p-3 rounded-xl" class:selected={$selected === title}>
+<section
+	class="my-2 prose border-slate-300 border-[1px] p-3 rounded-xl"
+	class:selected={$selected === title}
+>
 	<h2>{title}</h2>
 	<p><slot /></p>
 </section>
