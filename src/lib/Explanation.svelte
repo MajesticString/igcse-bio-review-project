@@ -1,6 +1,9 @@
 <script lang="ts">
 	import { selected } from './selected';
 
+	/**
+	 * The big text. Required for the hover thingy
+	 */
 	export let title: string;
 </script>
 
