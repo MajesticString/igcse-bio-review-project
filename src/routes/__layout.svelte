@@ -1,4 +1,4 @@
-<div class="sticky top-0 mb-4 px-6 text-xl text-black w-full backdrop-blur border-b z-20">
+<div class="top-0 mb-4 px-6 text-xl text-black w-full border-b z-20">
 	<div class="py-4 pr-4 flex justify-between items-center">
 		<div class="flex items-center space-x-4 md:space-x-0">
 			<a href="/">

@@ -10,10 +10,10 @@
 	<h1 class="w-full m-2 text-center justify-self-center">Plant Cell</h1>
 
 	<p class="w-full m-2 text-center justify-self-center">
-		Hover over the cell structures to highlight the definition
+		Hover over the cell structures to highlight the definition.
 	</p>
 </div>
-<div class="flex flex-row mx-8">
+<div class="flex flex-col md:flex-row mx-8">
 	<div class="flex flex-col left-explanations">
 		<Explanation title="Cell Wall">
 			A structural, often firm layer surrounding the cell membrane that keeps the plant cells shape,
@@ -38,7 +38,7 @@
 			consists of water.
 		</Explanation>
 	</div>
-	<div class="image relative w-[700px]">
+	<div class="image relative w-[700px] min-w-[700px]">
 		<img src="/plant-cell.png" alt="Plant Cell" />
 		<Tile title="Cell Wall" data="20,20,660,640" />
 		<Tile title="Cell Membrane" data="40,40,620,590" rounded="90" />

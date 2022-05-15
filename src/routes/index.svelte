@@ -27,7 +27,9 @@
 			Bacteria Cell
 		</a> -->
 	</div>
-	<a href="https://github.com/MajesticString/igcse-bio-review-project" target="_blank"
-		>Source code if you care</a
-	>
+	<div class="mt-8">
+		<a href="https://github.com/MajesticString/igcse-bio-review-project" target="_blank">
+			Source code if you care
+		</a>
+	</div>
 </div>
