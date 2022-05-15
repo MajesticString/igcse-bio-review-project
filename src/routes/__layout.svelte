@@ -2,7 +2,7 @@
 	<div class="py-4 pr-4 flex justify-between items-center">
 		<div class="flex items-center space-x-4 md:space-x-0">
 			<a href="/">
-				<span class="text-blue-600">Biology</span> Review Project
+				<span class="text-blue-600 font-bold">Cell Structures</span> Biology Review Project
 			</a>
 		</div>
 

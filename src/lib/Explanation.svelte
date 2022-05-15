@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { selected } from './selected';
+	import { selected } from '$lib/selected';
 
 	/**
 	 * The big text. Required for the hover thingy
