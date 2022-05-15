@@ -7,8 +7,11 @@
 	<title>Animal Cell - Cell Structures Review Project</title>
 </svelte:head>
 
-<div class="w-full text-center prose flex justify-center mx-auto mb-4">
-	<h1 class="w-full text-center justify-self-center">Animal Cell</h1>
+<div class="w-full text-center flex-col prose flex justify-center mx-auto mb-4">
+	<h1 class="w-full m-2 text-center justify-self-center">Animal Cell</h1>
+	<p class="w-full m-2 text-center justify-self-center">
+		Hover over the cell structures to highlight the definition
+	</p>
 </div>
 <div class="flex flex-row mx-8">
 	<div class="flex flex-col left-explanations">
@@ -36,19 +39,20 @@
 	</div>
 	<div class="image relative w-[700px]">
 		<img src="/animal-cell.png" alt="Animal Cell" />
-		<Tile title="Cell Membrane" data="40,40,620,590" rounded="90" />
-		<Tile title="Cytoplasm" data="60,60,570,550" rounded="90" />
-		<Tile title="Mitochondria" data="55,87,45,100" rounded="90" rotation="54" />
-		<Tile title="Mitochondria" data="410,87,45,100" rounded="90" rotation="110" />
-		<Tile title="Mitochondria" data="450,565,45,100" rounded="90" rotation="54" />
-		<Tile title="Vacuole" data="100,100,210,250" rounded="100" rotation="150" />
-		<Tile title="Vacuole" data="230,175,230,400" rounded="150" rotation="140" />
-		<Tile title="Vacuole" data="230,105,230,200" rotation="-20" />
-		<Tile title="Rough Endoplasmic Reticulum" data="70,340,284,270" rounded="135" />
-		<Tile title="Nucleus" data="120,420,170,170" rounded="90" />
-		<Tile title="Nucleoid" data="200,495,50,50" rounded="90" rotation="-90" />
-		<Tile title="Smooth Endoplasmic Reticulum" data="60,315,70,120" rotation="18" />
-		<Tile title="Golgi Apparatus" data="350,480,150,100" />
+		<Tile title="Cell Membrane" data="10,10,680,670" rounded="340" />
+		<Tile title="Cytoplasm" data="30,30,640,630" rounded="340" />
+		<Tile title="Mitochondria" data="270,77,45,100" rounded="90" rotation="54" />
+		<Tile title="Mitochondria" data="420,300,45,100" rounded="90" rotation="120" />
+		<Tile title="Mitochondria" data="370,580,45,100" rounded="90" />
+		<Tile title="Vacuole" data="390,140,90,130" rounded="100" />
+		<Tile title="Rough Endoplasmic Reticulum" data="70,190,300,300" rounded="150" />
+		<Tile title="Nucleus" data="130,280,170,170" rounded="90" />
+		<Tile title="Nucleoid" data="220,360,50,50" rounded="90" />
+		<Tile title="Smooth Endoplasmic Reticulum" data="60,180,70,120" rotation="18" />
+		<Tile title="Golgi Apparatus" data="370,340,150,100" />
+		<Tile title="Lysosomes" data="550,300,70,70" rounded="30" />
+		<Tile title="Peroxisomes" data="160,130,50,50" rounded="25" />
+		<Tile title="Peroxisomes" data="280,580,50,50" rounded="25" />
 	</div>
 	<div class="right-explanations">
 		<Explanation title="Cell Membrane">

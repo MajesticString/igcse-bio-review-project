@@ -6,8 +6,12 @@
 <svelte:head>
 	<title>Plant Cell - Cell Structures Review Project</title>
 </svelte:head>
-<div class="w-full text-center prose flex justify-center mx-auto mb-4">
-	<h1 class="w-full text-center justify-self-center">Plant Cell</h1>
+<div class="w-full flex-col text-center prose flex justify-center mx-auto mb-4">
+	<h1 class="w-full m-2 text-center justify-self-center">Plant Cell</h1>
+
+	<p class="w-full m-2 text-center justify-self-center">
+		Hover over the cell structures to highlight the definition
+	</p>
 </div>
 <div class="flex flex-row mx-8">
 	<div class="flex flex-col left-explanations">
