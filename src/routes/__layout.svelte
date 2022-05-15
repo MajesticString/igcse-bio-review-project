@@ -10,7 +10,7 @@
 
 		<a class="mx-2" href="/animal-cell">Animal Cell</a>
 		<a class="mx-2" href="/plant-cell">Plant Cell</a>
-		<a class="mx-2" href="/bacteria-cell">Bacteria Cell</a>
+		<!-- <a class="mx-2" href="/bacteria-cell">Bacteria Cell</a> -->
 	</div>
 </div>
 

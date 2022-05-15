@@ -20,11 +20,11 @@
 		>
 			Animal Cell
 		</a>
-		<a
+		<!-- <a
 			href="/bacteria-cell"
 			class="m-2 bg-blue-500 no-underline hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-blue-50 text-white font-semibold h-8 px-6 rounded-lg flex items-center justify-center"
 		>
 			Bacteria Cell
-		</a>
+		</a> -->
 	</div>
 </div>
