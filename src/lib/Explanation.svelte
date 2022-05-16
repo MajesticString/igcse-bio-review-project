@@ -8,7 +8,7 @@
 </script>
 
 <section
-	class="my-2 prose border-slate-300 border-[1px] p-3 rounded-xl {$selected === title ? 'shadow-xl shadow-indigo-500/50 bg-cyan-100' : ''}"
+	class="my-2 prose border-slate-300 border-[1px] p-3 rounded-xl {$selected === title ? 'shadow-xl shadow-indigo-500/50 bg-indigo-100' : ''}"
 >
 	<h2>{title}</h2>
 	<p><slot /></p>
