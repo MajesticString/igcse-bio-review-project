@@ -7,12 +7,6 @@
   <title>Animal Cell - Cell Structures Review Project</title>
 </svelte:head>
 
-<div class="w-full text-center flex-col prose flex justify-center mx-auto mb-4">
-  <h1 class="w-full m-2 text-center justify-self-center">Animal Cell</h1>
-  <p class="w-full m-2 text-center justify-self-center">
-    Hover over the cell structures to highlight the definition (you might have to scroll down).
-  </p>
-</div>
 <div class="flex flex-row mx-8">
   <div class="flex flex-col left-explanations">
     <Explanation title="Vacuole">
@@ -39,7 +33,13 @@
       peroxide for those reactions.
     </Explanation>
   </div>
-  <div class="sticky w-[700px] min-w-[700px]">
+  <div class="sticky w-[700px] min-w-[700px] flex flex-col">
+    <div class="w-full text-center flex-col prose flex justify-center mx-auto mb-4">
+  <h1 class="w-full m-2 text-center justify-self-center">Animal Cell</h1>
+  <p class="w-full m-2 text-center justify-self-center">
+    Hover over the cell structures to highlight the definition (you might have to scroll down).
+  </p>
+</div>
     <div class="image relative w-full">
       <img src="/animal-cell.png" alt="Animal Cell" />
       <Tile title="Cell Membrane" data="10,10,680,670" rounded="340" />
