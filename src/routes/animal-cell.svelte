@@ -39,7 +39,7 @@
       peroxide for those reactions.
     </Explanation>
   </div>
-  <div class="fixed top-4 w-[700px] min-w-[700px]">
+  <div class="sticky w-[700px] min-w-[700px]">
     <div class="image relative w-full">
       <img src="/animal-cell.png" alt="Animal Cell" />
       <Tile title="Cell Membrane" data="10,10,680,670" rounded="340" />
