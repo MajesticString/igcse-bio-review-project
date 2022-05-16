@@ -10,7 +10,7 @@
 <div class="w-full text-center flex-col prose flex justify-center mx-auto mb-4">
   <h1 class="w-full m-2 text-center justify-self-center">Animal Cell</h1>
   <p class="w-full m-2 text-center justify-self-center">
-    Hover over the cell structures to highlight the definition
+    Hover over the cell structures to highlight the definition (you might have to scroll down).
   </p>
 </div>
 <div class="flex flex-row mx-8">
