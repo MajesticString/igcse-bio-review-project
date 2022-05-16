@@ -38,7 +38,8 @@
 			consists of water.
 		</Explanation>
 	</div>
-	<div class="image relative w-[700px] min-w-[700px]">
+	<div class="sticky w-[700px] min-w-[700px]">
+	<div class="image relative w-full">
 		<img src="/plant-cell.png" alt="Plant Cell" />
 		<Tile title="Cell Wall" data="20,20,660,640" />
 		<Tile title="Cell Membrane" data="40,40,620,590" rounded="90" />
@@ -57,6 +58,7 @@
 		<Tile title="Nucleoid" data="200,495,50,50" rounded="90" rotation="-90" />
 		<Tile title="Smooth Endoplasmic Reticulum" data="60,315,70,120" rotation="18" />
 		<Tile title="Golgi Apparatus" data="350,480,150,100" />
+	</div>
 	</div>
 	<div class="right-explanations">
 		<Explanation title="Cell Membrane">

@@ -37,7 +37,8 @@
 			reactions.
 		</Explanation>
 	</div>
-	<div class="image relative w-[700px]">
+	<div class="sticky w-[700px] min-w-[700px]">
+	<div class="image relative w-full">
 		<img src="/animal-cell.png" alt="Animal Cell" />
 		<Tile title="Cell Membrane" data="10,10,680,670" rounded="340" />
 		<Tile title="Cytoplasm" data="30,30,640,630" rounded="340" />
@@ -53,6 +54,7 @@
 		<Tile title="Lysosomes" data="550,300,70,70" rounded="30" />
 		<Tile title="Peroxisomes" data="160,130,50,50" rounded="25" />
 		<Tile title="Peroxisomes" data="280,580,50,50" rounded="25" />
+	</div>
 	</div>
 	<div class="right-explanations">
 		<Explanation title="Cell Membrane">
