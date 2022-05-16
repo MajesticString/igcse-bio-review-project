@@ -6,13 +6,7 @@
 <svelte:head>
   <title>Plant Cell - Cell Structures Review Project</title>
 </svelte:head>
-<div class="w-full flex-col text-center prose flex justify-center mx-auto mb-4">
-  <h1 class="w-full m-2 text-center justify-self-center">Plant Cell</h1>
 
-  <p class="w-full m-2 text-center justify-self-center">
-    Hover over the cell structures to highlight the definition (you might have to scroll down).
-  </p>
-</div>
 <div class="flex flex-col md:flex-row mx-8">
   <div class="flex flex-col left-explanations">
     <Explanation title="Cell Wall">
@@ -41,7 +35,14 @@
       vacuole). Mainly consists of water.
     </Explanation>
   </div>
-  <div class="sticky w-[700px] min-w-[700px]">
+  <div class="sticky w-[700px] min-w-[700px] flex flex-col">
+    <div class="w-full flex-col text-center prose flex justify-center mx-auto mb-4">
+  <h1 class="w-full m-2 text-center justify-self-center">Plant Cell</h1>
+
+  <p class="w-full m-2 text-center justify-self-center">
+    Hover over the cell structures to highlight the definition (you might have to scroll down).
+  </p>
+</div>
     <div class="image relative w-full">
       <img src="/plant-cell.png" alt="Plant Cell" />
       <Tile title="Cell Wall" data="20,20,660,640" />
