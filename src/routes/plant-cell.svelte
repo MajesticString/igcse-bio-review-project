@@ -38,7 +38,7 @@
 			consists of water.
 		</Explanation>
 	</div>
-	<div class="sticky w-[700px] min-w-[700px]">
+	<div class="fixed top-4 w-[700px] min-w-[700px]">
 	<div class="image relative w-full">
 		<img src="/plant-cell.png" alt="Plant Cell" />
 		<Tile title="Cell Wall" data="20,20,660,640" />
