@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@rgossiaux/svelte-headlessui': ^1.0.0
   '@sveltejs/adapter-static': 1.0.0-next.29
   '@sveltejs/kit': next
   '@tailwindcss/typography': ^0.5.2
@@ -21,9 +22,12 @@ specifiers:
   tslib: ^2.3.1
   typescript: ~4.6.2
 
+dependencies:
+  '@rgossiaux/svelte-headlessui': 1.0.0_svelte@3.48.0
+
 devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.29
-  '@sveltejs/kit': 1.0.0-next.326_sass@1.51.0+svelte@3.48.0
+  '@sveltejs/kit': 1.0.0-next.330_sass@1.51.0+svelte@3.48.0
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.24
   '@typescript-eslint/eslint-plugin': 5.23.0_c63nfttrfhylg3zmgcxfslaw44
   '@typescript-eslint/parser': 5.23.0_hcfsmds2fshutdssjqluwm76uu
@@ -97,6 +101,14 @@ packages:
       fastq: 1.13.0
     dev: true
 
+  /@rgossiaux/svelte-headlessui/1.0.0_svelte@3.48.0:
+    resolution: {integrity: sha512-qZpaxnGPhSoy0CPI7jdhy6+gin0N4iOZZZe5fQTFKoI2lgvDJW2xeSWCaFWT7k3hgpusJj+Qbrx5/IE8uVqbbw==}
+    peerDependencies:
+      svelte: ^3.44.0
+    dependencies:
+      svelte: 3.48.0
+    dev: false
+
   /@rollup/pluginutils/4.2.1:
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
     engines: {node: '>= 8.0.0'}
@@ -111,8 +123,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.326_sass@1.51.0+svelte@3.48.0:
-    resolution: {integrity: sha512-prJqmXZ2H1wmFfnMw7wDujfbkcA8vuubuqUkpVVmXhfh2+SEzQscPTNwxoE5EJxb5sywtLWEvYx3hv1gPS4Lvg==}
+  /@sveltejs/kit/1.0.0-next.330_sass@1.51.0+svelte@3.48.0:
+    resolution: {integrity: sha512-Wb95D5tOF8BViZuikqzZLAcupdS7TpXtadNPgpEOxKowmkrW8xjRrrfVdPIkNOLqAP1V+gKInmQ/gFYmnv5EjA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
