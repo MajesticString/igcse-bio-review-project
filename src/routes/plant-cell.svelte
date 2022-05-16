@@ -126,7 +126,7 @@
       Synthesizes lipids and proteins. Contains ribosomes on its surface.
     </Explanation>
     <Explanation title="Nucleus">
-      Controls the activities of the cell. ALso contains the cells DNA.
+      Controls the activities of the cell. Also contains the cells DNA.
     </Explanation>
     <Explanation title="Nucleoid">
       Contains a majority of the genetic material. Controls the activity of the
